@@ -91,7 +91,7 @@ def keepPlaying():
             print("Have a Good day! \n")
 def playerGuess():
     tries = 6
-    choosen_word = "HELLO"
+    choosen_word = word()
     guess_word = []
     complete_word = "_" * len(choosen_word)
     print("Let's play Hangman! Guess the word: ", complete_word)
